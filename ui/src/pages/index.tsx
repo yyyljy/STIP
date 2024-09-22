@@ -30,37 +30,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Mina zkApp UI</title>
+        <title>STIP</title>
         <meta name="description" content="built with o1js" />
         <link rel="icon" href="/assets/favicon.ico" />
       </Head>
       <GradientBG>
         <main className={styles.main}>
           <div className={styles.center}>
-            <a
-              href="https://minaprotocol.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                className={styles.logo}
-                src={heroMinaLogo}
-                alt="Mina Logo"
-                width="191"
-                height="174"
-                priority
-              />
-            </a>
-            <p className={styles.tagline}>
-              built with
-              <code className={styles.code}> o1js</code>
-            </p>
-          </div>
-          <p className={styles.start}>
-            Get started by editing
-            <code className={styles.code}> src/pages/index.js</code> or <code className={styles.code}> src/pages/index.tsx</code>
-          </p>
-          <div className={styles.grid}>
+            <div className={styles.grid}>
             <a
               href="https://docs.minaprotocol.com/zkapps"
               className={styles.card}
@@ -68,7 +45,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <h2>
-                <span>DOCS</span>
+                <span>SELL</span>
                 <div>
                   <Image
                     src={arrowRightSmall}
@@ -79,7 +56,7 @@ export default function Home() {
                   />
                 </div>
               </h2>
-              <p>Explore zkApps, how to build one, and in-depth references</p>
+              <p>Create System Trading Investment Product</p>
             </a>
             <a
               href="https://docs.minaprotocol.com/zkapps/tutorials/hello-world"
@@ -88,18 +65,18 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <h2>
-                <span>TUTORIALS</span>
+                <span>BUY</span>
                 <div>
                   <Image
                     src={arrowRightSmall}
-                    alt="Mina Logo"
+                    alt="Mina Logo" 
                     width={16}
                     height={16}
                     priority
                   />
                 </div>
               </h2>
-              <p>Learn with step-by-step o1js tutorials</p>
+              <p>Invest System Trading Product</p>
             </a>
             <a
               href="https://discord.gg/minaprotocol"
@@ -108,7 +85,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <h2>
-                <span>QUESTIONS</span>
+                <span>DASHBOARDS</span>
                 <div>
                   <Image
                     src={arrowRightSmall}
@@ -119,7 +96,7 @@ export default function Home() {
                   />
                 </div>
               </h2>
-              <p>Ask questions on our Discord server</p>
+              <p>Investment Return Dashboard</p>
             </a>
             <a
               href="https://docs.minaprotocol.com/zkapps/how-to-deploy-a-zkapp"
@@ -141,6 +118,7 @@ export default function Home() {
               </h2>
               <p>Deploy a zkApp to Testnet</p>
             </a>
+          </div>
           </div>
         </main>
       </GradientBG>
